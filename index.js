@@ -8,6 +8,12 @@ const port = process.env.PORT || 5000;
 app.get('/',(req,res)=>{
     res.send('learning point server is running');
 })
+app.get('/home',(req,res)=>{
+    res.send('learning point home');
+})
+app.get('/name',(req,res)=>{
+    res.send('learning point home');
+})
 
 
 app.listen(port,()=>{
