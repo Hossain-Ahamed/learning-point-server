@@ -1,0 +1,73 @@
+[
+    {
+      "_id": "644814f7ac860d0a1ac8be70",
+      "isActive": true,
+      "price": "33.99",
+      "img": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+      "title": "Stock Market Analysis",
+      "description": "Stock market analysis enables investors to identify the intrinsic worth of a security even before investing in it.",
+      "topics": [
+        "Understand analysis types.",
+        "Conduct fundamental analysis",
+        "Predict price movements.",
+        "Navigate value gap."
+      ]
+    },
+    {
+      "_id": "644814f7c9ce75d47468fbdb",
+      "isActive": true,
+      "price": "19.99",
+      "img": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+      "title": "Graphic design",
+      "description": "Graphic design is important because it visually communicates ideas and messages to an audience in an effective and aesthetically pleasing manner.",
+      "topics": [
+        "Master design software.",
+        "Create visual concepts.",
+        "Communicate through design.",
+        "Develop design portfolio."
+      ]
+    },
+
+
+    {
+      "_id": "644814f7f840f58ce95dc7f2",
+      "isActive": true,
+      "price": "35.99",
+      "img": "images.unsplash.com/photo-1561144257-e32e8efc6c4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+      "title": "Robot and Fun",
+      "description": "Robotics is important because it allows for the automation of tasks and processes, increasing efficiency and productivity while reducing the potential for human error.",
+      "topics": [
+        "Understand robotic systems.",
+        "Program robotic movements.",
+        "Design robotic solutions.",
+        "Apply robotics technology."
+      ]
+    },
+    {
+      "_id": "644814f70d50ad7a3b997789",
+      "isActive": true,
+      "price": "19.99",
+      "img": "https://images.unsplash.com/photo-1616469832301-ffaeadc68cf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29yZHByZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1170",
+      "title": "Wordpress",
+      "description": "WordPress is important because it is a powerful and user-friendly platform for building and managing websites, allowing individuals and businesses to easily create an online presence",
+      "topics": [
+        "Build WordPress websites.",
+        "Customize website appearance.",
+        "Manage website content."
+      ]
+    },
+    {
+      "_id": "644814f77c26eb02917739df",
+      "isActive": true,
+      "price": "19.99",
+      "img": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+      "title": "Software development",
+      "description": "Software development is important because it allows for the creation of custom software solutions to meet the specific needs of individuals and businesses, improving efficiency and productivity.",
+      "topics": [
+        "Understand programming languages.",
+        "Design software solutions.",
+        "Develop software applications.",
+        "Test and debug software."
+      ]
+    }
+  ]

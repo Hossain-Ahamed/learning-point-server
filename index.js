@@ -4,18 +4,37 @@ const app = express();
 
 
 const port = process.env.PORT || 5000;
+const carousel = require('./data/carousel/carousel.json');
+const courses = require('./data/courses/courses.json');
 
-app.get('/',(req,res)=>{
+app.get('/', (req, res) => {
     res.send('learning point server is running');
 })
-app.get('/home',(req,res)=>{
-    res.send('learning point home');
-})
-app.get('/name',(req,res)=>{
-    res.send('learning point home');
+
+
+
+//carousel img
+app.get('/carousel', (req, res) => {
+    res.send(carousel.filter(item => item.isActive === true));
 })
 
 
-app.listen(port,()=>{
-    console.log('server is running on port ',port);
+
+// all courses
+app.get('/courses', (req, res) => {
+    res.send(courses.filter(item => item.isActive === true));
+})
+
+
+
+// individual course
+app.get('/courses/:courseID', (req, res) => {
+    let data = courses.find(item => item._id === req.params.courseID && item.isActive === true)
+    data ? res.send(data) : res.send([]);
+})
+
+
+
+app.listen(port, () => {
+    console.log('server is running on port ', port);
 })
