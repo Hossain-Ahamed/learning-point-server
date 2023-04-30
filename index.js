@@ -7,6 +7,7 @@ app.use(cors());
 const port = process.env.PORT || 5000;
 const carousel = require('./data/carousel/carousel.json');
 const courses = require('./data/courses/courses.json');
+const blog = require('./data/blog/blog.json')
 
 app.get('/', (req, res) => {
     res.send('learning point server is running');
@@ -32,6 +33,12 @@ app.get('/courses', (req, res) => {
 app.get('/courses/:courseID', (req, res) => {
     let data = courses.find(item => item._id === req.params.courseID && item.isActive === true)
     data ? res.send(data) : res.send([]);
+})
+
+
+// all blog
+app.get('/blog', (req, res) => {
+    res.send(blog);
 })
 
 
